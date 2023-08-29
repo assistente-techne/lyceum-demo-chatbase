@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+
+    <style>
+      @font-face {
+        src: url(./Roboto/Roboto-Regular.ttf);
+        font-family: "Roboto-Regular";
+        font-weight: normal;
+      }
+
+      body {
+        font-family: "Roboto-Regular";
+        
+        margin: 0px 00px 00px 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /* background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+      }
+
+      .logo {
+        width: 50%;
+        max-width: 600px;
+        padding: 1px;
+        bottom: 0;
+        position: relative;
+        text-align: center;
+      }
+
+      .logo-lyceum {
+        width: 100%;
+        max-width: 900px;
+        padding: 1px;
+        bottom: 0;
+        
+        position: relative;
+        text-align: center;
+        margin-right: 40px;
+      }
+
+      .container {
+        width: 100vw;
+        height: 100vh;
+        /* 
+            background-color: #00264e; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        text-align: center;
+/*         background-color: rgba(255, 255, 255, 0.507);
+ */        padding: 20px;
+        border-radius: 15px;
+      }
+
+      .text {
+        color: #2b76bb;
+        font-weight: 600;
+        font-size: 45px;
+      }
+
+     
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <p class="text">DEMO CHATBASE - LYCEUM</p>
+        <i>Ref: <a href="https://www.lyceum.com.br/solucoes" target="_blank">Lyceum soluções</a></i>
+        <img src="./img/chat.gif" alt="logo" class="logo-lyceum" />
+        
+      </div>
+    </div>
+
+    <script>
+      window.chatbaseConfig = {
+        chatbotId: "ma5f6aDN7ImDsjGGqHn3A",
+      }
+    </script>
+    <script
+      src="https://www.chatbase.co/embed.min.js"
+      id="ma5f6aDN7ImDsjGGqHn3A"
+      defer>
+    </script>
+  </body>
+</html>
